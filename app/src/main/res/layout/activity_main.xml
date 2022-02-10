@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="serif-monospace"
+        android:text="Welcome to Zron"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvSubtitle"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="serif-monospace"
+        android:text="A Gaming Buddy Matching App"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnMainSearchNew"
+        android:layout_width="233dp"
+        android:layout_height="147dp"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:layout_marginTop="50dp"
+        android:background="#FFCA2C"
+        android:clickable="true"
+        android:focusable="true"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Search Player For NEW Game"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnMainSearchExisting"
+        android:layout_width="232dp"
+        android:layout_height="139dp"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:layout_marginTop="50dp"
+        android:background="#FFCA2C"
+        android:clickable="true"
+        android:focusable="true"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Search Player For Existing Game"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnMainLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Log out"
+        android:visibility="gone" />
+
+</LinearLayout>
