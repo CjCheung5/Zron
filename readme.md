@@ -12,6 +12,10 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
+## Demo
+<img width="262" alt="Screenshot 2022-02-10 at 6 10 01 PM" src="https://user-images.githubusercontent.com/19802256/153395425-d4d75af3-2a75-4868-a05c-6399c553c2f1.png">
+
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
